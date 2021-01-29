@@ -12,10 +12,11 @@ def get_english_meaning(file_path, emoticon)
   emots = load_library(file_path)
   i = 0 
   while i < emots.length do 
-    if emoticon == emots[i][:japanese]
-      return emots.keys[i]
-    end
+    # if emoticon == emots[i][:japanese]
+    #   return emots.keys[i]
+    # end
     i += 1 
+    binding.pry
   end
   binding.pry
   # code goes here

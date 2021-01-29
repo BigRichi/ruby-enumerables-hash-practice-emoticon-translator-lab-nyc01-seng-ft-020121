@@ -14,7 +14,7 @@ def load_library(emot)
   end
 end
 
-def get_japanese_emoticon(file_path,emoticon)
+def get_japanese_emoticon(file_path, emoticon)
   binding.pry
 end
 

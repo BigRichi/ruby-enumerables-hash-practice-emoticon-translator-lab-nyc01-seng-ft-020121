@@ -9,6 +9,8 @@ def load_library(emot)
 end
 
 def get_english_meaning(file_path, emoticon)
+  emots = load_library(file_path)
+  
   binding.pry
   # code goes here
 end

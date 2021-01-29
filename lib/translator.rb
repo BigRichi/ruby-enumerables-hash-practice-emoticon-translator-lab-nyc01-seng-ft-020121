@@ -14,11 +14,9 @@ def load_library(emot)
   end
 end
 
-# # p load_library
-
-# def get_japanese_emoticon
-#   # code goes here
-# end
+def get_japanese_emoticon
+  # code goes here
+end
 
 # def get_english_meaning
 #   # code goes here

@@ -9,6 +9,7 @@ end
 def load_library
   emot = YAML.load_file("lib/emoticons.yml").each_with_object({}) do |(symb,pics), final_array|
     final_array[symb.to_sym] = {:english => pics[0] , :japanese => pics[-1]}
+    binding.pry
   end
   return emot
   binding.pry
